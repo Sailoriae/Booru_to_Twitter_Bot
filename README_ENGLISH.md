@@ -29,7 +29,7 @@ With these four keys you have access to your bot account through the Standard AP
 | `filter_tags`    | `List[str]` | `None`         | Do not tweet or retweet an image containing one of these tags.
 | `lock_actions`   | `bool`      | `False`        | Do not actually tweet or retweet.
 
-The query passed to the `request` parameter allows to select in the image database illustrations containing tags, or more precisely which answer a boolean expression. These illustrations are chosen randomly if the `post_new_first` parameter is set to `False`, or if all recent images have been published. The filter passed to the `filter_tags` parameter allows to refine this selection by eliminating illustrations containing one or more tags of the filter.
+The query passed to the `request` parameter allows to select in the image database illustrations containing tags, or more precisely which answer a boolean expression. These illustrations are chosen randomly if the `post_new_first` parameter is set to `False`, or if all recent images have been published. The filter passed to the `filter_tags` parameter allows to refine this selection by eliminating illustrations containing one or more tags of the filter. Examples of queries and filters are available in the [`queries_and_filters`](queries_and_filters) directory.
 
 Since AOTF is free software, you can use someone else's server, or install your own. Check [its repository](https://github.com/Sailoriae/Artists_on_Twitter_Finder) for more information. The API URL should look like `https://sub.domain.tld/api/` for a public AOTF server, or `http://localhost:3301/` to use your local server. Leave the `aotf_api_base` parameter at `None` to not use an AOTF server, but that's not so nice for artists who are on Twitter.
 
