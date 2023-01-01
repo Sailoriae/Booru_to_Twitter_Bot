@@ -12,7 +12,7 @@ Pour créer un tel robot Twitter, vous devez d'abord :
 3. Créer un compte Twitter qui sera celui où les illustrations seront publiées. Ce sera le compte de votre robot, il est donc recommandé de le déclarer comme "[automatisé](https://help.twitter.com/en/using-twitter/automated-account-labels)".
 4. Générer les clés d'accès à ce compte avec le script [`get_oauth_token.py`](get_oauth_token.py). Cela vous permet d'obtenir un couple de clés `oauth_token` et `oauth_token`.
 
-Avec ces quatre clés, vous avez accès au compte de votre robot via l'API Standard. Pour pouvoir y publier des illustrations automatiquement, vous devez créer un script Python qui appelle la fonction `booru_to_twitter.launch()`. Les arguments de cette fonctions sont détaillés dans le tableau ci-dessous. Puis vous pouvez exécuter ce script automatiquement avec une tâche Cron, par exemple une fois par heure. Notez que si votre robot tweete plus d’une fois par heure, ses Tweets ne seront plus indexés dans la recherche Twitter.
+Avec ces quatre clés, vous avez accès au compte de votre robot via l'API Standard. Pour pouvoir y publier des illustrations automatiquement, vous devez créer un script Python qui appelle la fonction `booru_to_twitter.launch()`. Les arguments de cette fonctions sont détaillés dans le tableau ci-dessous, et un exemple d'utilisation est disponible dans le script [`example.py`](example.py). Puis vous pouvez exécuter votre script automatiquement avec une tâche Cron, par exemple une fois par heure. Notez que si votre robot tweete plus d’une fois par heure, ses Tweets ne seront plus indexés dans la recherche Twitter.
 
 | Argument         | Type        | Valeur par défaut | Description
 | ---------------- | ----------- | ----------------- | -----------

@@ -10,7 +10,7 @@ To create such a Twitter bot, you must first :
 3. Create a Twitter account that will be the one where the illustrations will be published. This will be the account of your bot, so it is recommended to declare it as "[automated](https://help.twitter.com/en/using-twitter/automated-account-labels)".
 4. Generate the access keys to this account with the [`get_oauth_token.py`](get_oauth_token.py) script. This gives you a key pair `oauth_token` and `oauth_token`.
 
-With these four keys you have access to your bot account through the Standard API. In order to be able to publish illustrations automatically, you need to create a Python script that calls the `booru_to_twitter.launch()` function. The parameters of this function are detailed in the table below. Then you can run this script automatically with a Cron task, for example once an hour. Note that if your bot tweets more than once per hour, its Tweets will no longer be indexed in the Twitter search.
+With these four keys you have access to your bot account through the Standard API. In order to be able to publish illustrations automatically, you need to create a Python script that calls the `booru_to_twitter.launch()` function. The parameters of this function are detailed in the table below, and an example of use is available in the [`example.py`](example.py) script. Then you can run your script automatically with a Cron task, for example once an hour. Note that if your bot tweets more than once per hour, its Tweets will no longer be indexed in the Twitter search.
 
 | Parameter        | Type        | Default value  | Description
 | ---------------- | ----------- | -------------- | -----------

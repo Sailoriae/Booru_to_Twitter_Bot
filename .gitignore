@@ -6,5 +6,6 @@ __pycache__
 !/LICENSE.txt
 !/README.md
 !/README_ENGLISH.md
+!/example.py
 !/get_oauth_token.py
 !/requirements.txt
