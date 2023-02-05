@@ -1,3 +1,7 @@
+🇫🇷 Ce script utilise l'API Twitter v1.1, qui est devenue payante en février 2023 (Tout comme l'API v2).  
+🇬🇧 This script uses the Twitter API v1.1, which became paid in February 2023 (Just like the API v2).
+
+
 # Booru to Twitter Bot
 
 *If you don't speak French, you can read the [English translation of this file](README_ENGLISH.md).*
